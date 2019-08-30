@@ -3,9 +3,11 @@
     <!-- Load the latest version of TensorFlow.js -->
     <!-- <script src="https://unpkg.com/@tensorflow/tfjs"></script>
     <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script> -->
+
     <!-- Specifically pinned version numbers  -->
     <script src="https://unpkg.com/@tensorflow/tfjs@1.0.1"></script>
     <script src="https://unpkg.com/@tensorflow-models/mobilenet@1.0.0"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
   </head>
 
   <body>
@@ -18,6 +20,10 @@
       width="224"
       height="224"
     ></video>
+    <button id="class-a">Add A</button>
+    <button id="class-b">Add B</button>
+    <button id="class-c">Add C</button>
+
     <!-- Add an image that we will use to test -->
     <!-- <img
       id="img"
@@ -27,6 +33,7 @@
       height="227"
     /> -->
     <!-- Load index.js after the content of the page -->
+
     <script src="index.js"></script>
   </body>
 </html>
